@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Frontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jalaj Gupta's API Interface</h1>
+        <textarea id="jsonInput" placeholder="Enter JSON here..."></textarea>
+        <button onclick="submitData()">Submit</button>
+        <select id="filter" multiple>
+            <option value="Alphabets">Alphabets</option>
+            <option value="Numbers">Numbers</option>
+            <option value="Highest alphabet">Highest alphabet</option>
+        </select>
+        <pre id="response"></pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
