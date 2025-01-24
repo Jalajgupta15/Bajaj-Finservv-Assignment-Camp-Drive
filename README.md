@@ -1,4 +1,3 @@
-
 # Bajaj Finserv API Interface
 
 This project is a simple web-based interface for interacting with an API. It allows users to submit a JSON object and receive processed results, including filtered numbers, alphabets, and the highest alphabet.
